@@ -30,7 +30,7 @@ build {
       "sudo apt-get install tomcat9-admin tomcat9-common -y",
       "sudo apt-get install tomcat9 -y",
       "cd /var/lib/tomcat9/webapps/",
-      "sudo wget https://artifactory-storage-myapp.s3.us-east-2.amazonaws.com/myapp.war",
+      "sudo wget https://artifact-storage-myapp-s3-bucket.s3.us-east-2.amazonaws.com/myapp.war",
       "sudo systemctl start tomcat9"
     ]
   }
